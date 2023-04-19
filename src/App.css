@@ -1,38 +1,43 @@
-.App {
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Pretendard-Regular';
+  font-size: 12px;
+  background: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+
+.sign--box {
+  margin: 250px auto;
+  display: block;
+  position: relative;
+  background: rgba(255, 255, 255, 0.123);
+  width: 230px;
+  height: 280px;
+  padding: 50px 20px;
+  box-shadow: 0px 0px 16px -10px;
   text-align: center;
+  border-radius: 15px;
+  box-sizing: border-box;
+  backdrop-filter: blur(4px);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-list-div {
+  width: 400px;
+    height: 600px;
+    display: block;
+    position: relative;
+    background: #ffffff47;
+    margin: 105px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px -10px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    padding: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.ant-btn {
+  margin-top: 20px;
 }

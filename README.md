@@ -2,8 +2,10 @@
 
 git clone 후 npm install / npm start 시 실행됩니다.
 
+회원가입  / 로그인 성공 후 별도의 리다이렉팅이 없습니다.
+새로고침 시 리다이렉팅됩니다.
+
 # 데모 영상
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BPAucd6rhxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=BPAucd6rhxA
 
-# 배포 링크

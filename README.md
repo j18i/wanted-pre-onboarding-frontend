@@ -4,4 +4,4 @@ git clone 후 npm install & npm start
 
 # 배포 링크
 
-https://h4ll0w33ri.com/frontend
+http://h4ll0w33ri.com/build
